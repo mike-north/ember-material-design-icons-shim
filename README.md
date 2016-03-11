@@ -1,4 +1,4 @@
-# Ember-material-design-icons-shim
+# Ember-material-design-icons-shim [![Build Status](https://travis-ci.org/levanto-financial/ember-material-design-icons-shim.svg?branch=master)](https://travis-ci.org/levanto-financial/ember-material-design-icons-shim) 
 
 A very simple shim to add [material-design-icons](https://github.com/google/material-design-icons) to your Ember.js app, without having to rely on Google's CDN.
 
