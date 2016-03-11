@@ -1,4 +1,4 @@
-The MIT License (MIT)
+The MIT License (MIT) Levanto Financial
 
 Copyright (c) 2016
 

@@ -1,6 +1,6 @@
 # Ember-material-design-icons-shim
 
-This README outlines the details of collaborating on this Ember addon.
+A very simple shim to add [material-design-icons](https://github.com/google/material-design-icons) to your Ember.js app, without having to rely on Google's CDN.
 
 ## Installation
 
