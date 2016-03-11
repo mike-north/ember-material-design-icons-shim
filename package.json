@@ -11,7 +11,7 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "https://github.com/mike-north/ember-material-design-icons-shim",
+  "repository": "https://github.com/levanto-financial/ember-material-design-icons-shim",
   "engines": {
     "node": ">= 0.10.0"
   },
