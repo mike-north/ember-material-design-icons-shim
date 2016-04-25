@@ -1,6 +1,6 @@
 {
   "name": "ember-material-design-icons-shim",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A simple shim for Google Material Design Icons",
   "directories": {
     "doc": "doc",
