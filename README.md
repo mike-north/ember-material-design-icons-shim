@@ -4,7 +4,24 @@
 
 A very simple shim to add [material-design-icons](https://github.com/google/material-design-icons) to your Ember.js app, without having to rely on Google's CDN.
 
-## Installation
+## Use
+Install this addon with ember-cli
+
+```
+ember install ember-material-design-icons-shim
+```
+And this addon will take care of adding the appropriate CSS and icon fonts into your app's asset pipeline. You can use google material design icons in your app [as described in the official Google Material Design Icons documentation](https://design.google.com/icons/)
+
+### Example
+```html
+<!-- For modern browsers. -->
+<i class="material-icons">alarm</i>
+
+<!-- For IE9 or below. -->
+<i class="material-icons">&#xE855;</i>
+```
+
+## Contributing
 
 * `git clone` this repository
 * `npm install`
