@@ -1,4 +1,4 @@
-# Ember-material-design-icons-shim [![Build Status](https://travis-ci.org/levanto-financial/ember-material-design-icons-shim.svg?branch=master)](https://travis-ci.org/levanto-financial/ember-material-design-icons-shim) 
+# Ember-material-design-icons-shim [![Build Status](https://travis-ci.org/levanto-financial/ember-material-design-icons-shim.svg?branch=master)](https://travis-ci.org/levanto-financial/ember-material-design-icons-shim) [![Ember Observer Score](https://emberobserver.com/badges/ember-material-design-icons-shim.svg)](https://emberobserver.com/addons/ember-material-design-icons-shim)
 
 **[FASTBOOT](http://ember-fastboot.com) COMPATIBLE**
 
