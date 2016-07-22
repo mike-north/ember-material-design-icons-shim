@@ -3,8 +3,13 @@
 
 module.exports = {
   name: 'ember-material-design-icons-shim',
-  included: function(app) {
-    this._super.included(app);
+  included: function(appOrAddon) {
+    this._super.included(appOrAddon);
+    var app = appOrAddon;
+    if (typeof appOrAddon.import !== 'function' && appOrAddon.app) {
+      app = appOrAddon.app;
+    }
+    this.app = app;
     app.import('vendor/iconfont/MaterialIcons-Regular.eot', { destDir: 'assets' });
     app.import('vendor/iconfont/MaterialIcons-Regular.ijmap', { destDir: 'assets' });
     app.import('vendor/iconfont/MaterialIcons-Regular.svg', { destDir: 'assets' });
