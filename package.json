@@ -1,6 +1,6 @@
 {
   "name": "ember-material-design-icons-shim",
-  "version": "0.1.9",
+  "version": "0.1.10",
   "description": "A shim for Google Material Design Icons in Ember.js apps",
   "directories": {
     "doc": "doc",
