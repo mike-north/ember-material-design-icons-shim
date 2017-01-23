@@ -2,7 +2,6 @@
 'use strict';
 
 var path = require('path');
-var resolve = require('resolve');
 var mergeTrees = require('broccoli-merge-trees');
 var Funnel = require('broccoli-funnel');
 
@@ -29,9 +28,16 @@ module.exports = {
     app.import(this.treePaths.vendor + '/material-design-icons/material-icons.css');
   },
   _materialIconsPath() {
-    var iconsPath = path.dirname(resolve.sync('material-design-icons/package.json', {
-      basedir: this.project.root
-    }));
+    var iconsPath;
+
+    try {
+      var resolve = require('resolve');
+      iconsPath = path.dirname(resolve.sync('material-design-icons/package.json', {
+        basedir: this.project.root
+      }));
+    } catch (error) {
+      iconsPath = path.dirname(require.resolve('material-design-icons/package.json'));
+    }
 
     return path.join(iconsPath, 'iconfont');
   },
