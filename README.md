@@ -1,5 +1,7 @@
 # Ember-material-design-icons-shim [![Build Status](https://travis-ci.org/mike-north/ember-material-design-icons-shim.svg?branch=master)](https://travis-ci.org/mike-north/ember-material-design-icons-shim) [![Ember Observer Score](https://emberobserver.com/badges/ember-material-design-icons-shim.svg)](https://emberobserver.com/addons/ember-material-design-icons-shim)
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mike-north/ember-material-design-icons-shim.svg)](https://greenkeeper.io/)
+
 **[FASTBOOT](http://ember-fastboot.com) COMPATIBLE**
 
 A very simple shim to add [material-design-icons](https://github.com/google/material-design-icons) to your Ember.js app, without having to rely on Google's CDN.
