@@ -7,7 +7,7 @@ test('visiting /index', function(assert) {
   visit('/');
 
   andThen(function() {
-    assert.equal(find('.material-icons').css('font-family'), "'Material Icons'");
+    assert.equal(find('.material-icons').css('font-family'), '\"Material Icons\"');
     assert.equal(currentURL(), '/');
   });
 });

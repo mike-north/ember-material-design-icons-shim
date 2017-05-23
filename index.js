@@ -1,11 +1,11 @@
-/* jshint node: true */
+/* eslint-env node */
 'use strict';
 
 module.exports = {
   name: 'ember-material-design-icons-shim',
-  included: function(appOrAddon) {
+  included(appOrAddon) {
     this._super.included(appOrAddon);
-    var app = appOrAddon;
+    let app = appOrAddon;
     if (typeof appOrAddon.import !== 'function' && appOrAddon.app) {
       app = appOrAddon.app;
     }
