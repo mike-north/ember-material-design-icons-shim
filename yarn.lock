@@ -1240,7 +1240,7 @@ array-union@^1.0.1:
   dependencies:
     array-uniq "^1.0.1"
 
-array-uniq@^1.0.0, array-uniq@^1.0.1:
+array-uniq@^1.0.1:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/array-uniq/-/array-uniq-1.0.3.tgz#af6ac877a25cc7f74e058894753858dfdb24fdb6"
   integrity sha1-r2rId6Jcx/dOBYiUdThY39sk/bY=
@@ -4982,14 +4982,6 @@ find-up@^3.0.0:
   integrity sha512-1yD6RmLI1XBfxugvORwlck6f75tYL+iR0jqwsOrOxMZyGYqUuDhJ0l4AXdO1iX/FTs9cBAMEk1gWSEx1kSbylg==
   dependencies:
     locate-path "^3.0.0"
-
-find-versions@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/find-versions/-/find-versions-2.0.0.tgz#2ad90d490f6828c1aa40292cf709ac3318210c3c"
-  integrity sha1-KtkNSQ9oKMGqQCks9wmsMxghDDw=
-  dependencies:
-    array-uniq "^1.0.0"
-    semver-regex "^1.0.0"
 
 find-versions@^3.0.0:
   version "3.0.0"
@@ -10219,10 +10211,10 @@ sax@^1.2.4:
   resolved "https://registry.yarnpkg.com/sax/-/sax-1.2.4.tgz#2816234e2378bddc4e5354fab5caa895df7100d9"
   integrity sha512-NqVDv9TpANUjFm0N8uM5GxL36UgKi9/atZw+x7YFnQ8ckwFGKrl4xX4yWtrey3UJm5nP1kUbnYgLopqWNSRhWw==
 
-semantic-release@15.10.7:
-  version "15.10.7"
-  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.10.7.tgz#c1ab858363a9eff078a9cb7355f478482b6ba3f0"
-  integrity sha512-tG94NSTecmpQoxUmJZM5ymp3R2CT+26WoQhS5cnXz/QPNTooJBnkXGvKK6Vrgg9nrPRtsylSQDBWvZ0fPWjfew==
+semantic-release@15.12.2:
+  version "15.12.2"
+  resolved "https://registry.yarnpkg.com/semantic-release/-/semantic-release-15.12.2.tgz#5e02f5281b4d3bb70b0421346cd6538921f583d6"
+  integrity sha512-kbUSNnK2py8AdL1scHSTgjz5HAQIcqrpwpWzFXXUpds2uotIj77p3qrKUB1pDsmMiUpMeGgu2cuqBF9Q2/4sUA==
   dependencies:
     "@semantic-release/commit-analyzer" "^6.1.0"
     "@semantic-release/error" "^2.2.0"
@@ -10235,7 +10227,7 @@ semantic-release@15.10.7:
     env-ci "^3.0.0"
     execa "^1.0.0"
     figures "^2.0.0"
-    find-versions "^2.0.0"
+    find-versions "^3.0.0"
     get-stream "^4.0.0"
     git-log-parser "^1.2.0"
     hook-std "^1.1.0"
@@ -10294,11 +10286,6 @@ semver-diff@^2.0.0:
   integrity sha1-S7uEN8jTfksM8aaP1ybsbWRdbTY=
   dependencies:
     semver "^5.0.3"
-
-semver-regex@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/semver-regex/-/semver-regex-1.0.0.tgz#92a4969065f9c70c694753d55248fc68f8f652c9"
-  integrity sha1-kqSWkGX5xwxpR1PVUkj8aPj2Usk=
 
 semver-regex@^2.0.0:
   version "2.0.0"
