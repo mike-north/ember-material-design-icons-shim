@@ -12,6 +12,7 @@ module.exports = {
       ci: [
         // --no-sandbox is needed when running Chrome inside a container
         process.env.CI ? '--no-sandbox' : null,
+        '--disable-gpu',
         '--headless',
         '--disable-gpu',
         '--disable-dev-shm-usage',
